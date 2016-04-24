@@ -7,10 +7,16 @@ depend minrelease/2013
 depend container_split_doc_files/1
 depend container_split_src_files/1
 depend revision/1
+depend container_format/xz
+depend container_split_doc_files/1
+depend container_split_src_files/1
+depend minrelease/2016
+depend release/2016
+depend revision/1
 
 name 00texlive.installation
 category TLCore
-depend setting_available_architectures:i386-cygwin i386-freebsd x86_64-linux amd64-freebsd x86_64-darwin i386-netbsd universal-darwin win32 i386-linux
+depend setting_available_architectures:amd64-freebsd i386-cygwin i386-freebsd i386-linux i386-netbsd universal-darwin win32 x86_64-darwin x86_64-linux
 depend opt_autobackup:1
 depend opt_backupdir:tlpkg/backups
 depend opt_create_formats:1
