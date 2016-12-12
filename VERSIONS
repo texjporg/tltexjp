@@ -1,13 +1,14 @@
 
 ptex-ng
 =======
-ptex-ng:		1
+ptex-ng:		3
 ptex-ng.BIN:
 	201412~		1
 	20150103	2
 	20150104	3	git f4593a2f985
 	20150126	4	git b4c6998b
 	20150203	5	git ??? (W32 change for local code page)
+	20161212	6	git updates from June 2016
 
 pmetapost
 =========

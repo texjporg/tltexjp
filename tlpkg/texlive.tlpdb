@@ -40,8 +40,7 @@ docfiles size=4
  texmf-dist/doc/fonts/hiraprop/ly1sample.tex
  texmf-dist/doc/fonts/hiraprop/readme.txt
  texmf-dist/doc/fonts/hiraprop/tipasample.tex
-runfiles size=135
- texmf-dist/fonts/map/dvipdfmx/macos/hiraprop/hiraprop.map
+runfiles size=134
  texmf-dist/fonts/ofm/macos/hiraprop/hirakaku-w3-h.ofm
  texmf-dist/fonts/ofm/macos/hiraprop/hirakaku-w6-h.ofm
  texmf-dist/fonts/ofm/macos/hiraprop/hiramaru-w4-h.ofm
@@ -161,7 +160,7 @@ runfiles size=135
 
 name ptex-ng
 category Package
-revision 2
+revision 3
 depend tex
 depend uptex
 depend latex
@@ -196,9 +195,10 @@ binfiles arch=universal-darwin size=929
 
 name ptex-ng.win32
 category Package
-revision 5
+revision 6
 shortdesc win32 files of ptex-ng
-binfiles arch=win32 size=447
+binfiles arch=win32 size=588
+ bin/win32/lsotfea.exe
  bin/win32/platex-ng.exe
  bin/win32/ptex-ng.exe
 
@@ -212,9 +212,10 @@ binfiles arch=x86_64-darwin size=481
 
 name ptex-ng.x86_64-linux
 category Package
-revision 4
+revision 6
 shortdesc x86_64-linux files of ptex-ng
-binfiles arch=x86_64-linux size=364
+binfiles arch=x86_64-linux size=579
+ bin/x86_64-linux/lsotfea
  bin/x86_64-linux/platex-ng
  bin/x86_64-linux/ptex-ng
 
