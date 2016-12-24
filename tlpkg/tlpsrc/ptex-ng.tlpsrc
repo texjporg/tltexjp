@@ -3,7 +3,7 @@ depend uptex
 depend latex
 depend adobemapping
 depend ipaex
-depend japanese
+depend babel-japanese
 depend japanese-otf
 depend jfontmaps
 #
