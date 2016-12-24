@@ -160,7 +160,7 @@ runfiles size=134
 
 name ptex-ng
 category Package
-revision 3
+revision 4
 depend tex
 depend uptex
 depend latex
