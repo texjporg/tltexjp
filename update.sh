@@ -1,13 +1,18 @@
+#!/bin/bash
+
+: ${TLROOT:=/home/norbert/Development/TeX/texlive.git}
+: ${TLTEXJP:=/home/norbert/public_html/tltexjp}
 
 # update tlpdb
-/src/TeX/texlive.git/Master/tlpkg/bin/tl-update-tlpdb \
+"$TLROOT/Master/tlpkg/bin/tl-update-tlpdb" \
 	-with-w32-pattern-warning -from-files -no-reverse-revision-check \
 	--keep-revisions --master=`pwd`
 
 
-/src/TeX/texlive.git/Master/tlpkg/bin/tl-update-containers \
+"$TLROOT/Master/tlpkg/bin/tl-update-containers" \
 	-master `pwd` \
-	-location /var/www/norbert/tltexjp \
+	-gpgcmd `pwd`/tl-sign-file \
+	-location "$TLTEXJP" \
 	-all
 
 # -recreate

@@ -1,0 +1,27 @@
+#!/bin/sh
+# $Id$
+# Public domain.  Originally written 2016, Norbert Preining
+# Sign a file for release in TeX Live
+
+if test $# -ne 1; then
+  echo "$0: Exactly one argument must be given, the file to sign." >&2
+  exit 1
+fi
+
+# remove previous signature
+rm -f "$1.asc"
+
+prg=gpg
+if ! [ "x$TL_GNUPG" = "x" ] ; then
+  # use the environment variable TL_GNUPG
+  prg=$TL_GNUPG
+fi
+
+##### TODO    --passphrase-file /home/texlive/.gnupg/passphrase \
+# sign
+$prg --batch \
+    --homedir /home/norbert/.gnupg \
+    --armor \
+    --detach-sign \
+    --local-user 0x691A8EF30393DF52 \
+    "$1"
