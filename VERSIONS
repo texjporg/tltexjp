@@ -1,7 +1,7 @@
 
 ptex-ng
 =======
-ptex-ng:		3
+ptex-ng:		4	20161224 japanese -> babel-japanese
 ptex-ng.BIN:
 	201412~		1
 	20150103	2
