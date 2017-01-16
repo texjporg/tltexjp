@@ -10,7 +10,7 @@ execute AddFormat name=euptex  engine=euptex options="*euptex.ini" \
                                patterns=language.def
 execute AddFormat name=uplatex engine=euptex options="*uplatex.ini" \
                                patterns=language.dat
-execute addKanjiMap uptex-@kanjiEmbed@@kanjiVariant@.map
+execute addKanjiMap uptex-@jaEmbed@@jaVariant@.map
 binpattern f bin/${ARCH}/convbkmk
 binpattern f bin/${ARCH}/euptex
 binpattern f bin/${ARCH}/upbibtex
