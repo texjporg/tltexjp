@@ -2,7 +2,7 @@ depend ptex
 depend hyph-utf8
 depend adobemapping
 depend ipaex
-depend japanese
+depend babel-japanese
 depend japanese-otf
 #
 execute AddFormat name=uptex   engine=uptex options="uptex.ini"
