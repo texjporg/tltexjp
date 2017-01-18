@@ -2,6 +2,7 @@
 ptex-ng
 =======
 ptex-ng:		4	20161224 japanese -> babel-japanese
+			5	20170118 jfontmap -> ptex-fontmaps
 ptex-ng.BIN:
 	201412~		1
 	20150103	2
