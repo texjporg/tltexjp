@@ -23,5 +23,5 @@ $prg --batch \
     --homedir /home/norbert/.gnupg \
     --armor \
     --detach-sign \
-    --local-user 0x691A8EF30393DF52 \
+    --local-user 0xA414E6EC0ED53B02 \
     "$1"
