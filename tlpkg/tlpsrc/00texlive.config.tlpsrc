@@ -1,6 +1,6 @@
 category TLCore
 depend container_format/xz
-depend release/2016-ptexlive
+depend release/2017-ptexlive
 depend minrelease/2016
 depend container_split_doc_files/1
 depend container_split_src_files/1
