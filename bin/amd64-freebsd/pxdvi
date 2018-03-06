@@ -51,3 +51,4 @@ if test -n "$xdviappfile"; then
 fi
 
 exec pxdvi-xaw $NAMEOPT ${1+"$@"}
+
