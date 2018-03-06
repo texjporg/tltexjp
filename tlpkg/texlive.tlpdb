@@ -1,18 +1,13 @@
 name 00texlive.config
 category TLCore
-revision 1
-depend container_format/xz
-depend release/2017-ptexlive
-depend minrelease/2016
-depend container_split_doc_files/1
-depend container_split_src_files/1
-depend revision/1
+revision 101
 depend container_format/xz
 depend container_split_doc_files/1
 depend container_split_src_files/1
+depend frozen/0
 depend minrelease/2016
-depend release/2017
-depend revision/1
+depend release/2018-tltexjp
+depend revision/102
 
 name 00texlive.installation
 category TLCore
@@ -34,7 +29,7 @@ depend opt_w32_multi_user:1
 
 name hiraprop
 category Package
-revision 2
+revision 102
 docfiles size=4
  texmf-dist/doc/fonts/hiraprop/COPYRIGHT
  texmf-dist/doc/fonts/hiraprop/ly1sample.tex
@@ -160,7 +155,7 @@ runfiles size=134
 
 name ptex-ng
 category Package
-revision 5
+revision 94
 depend tex
 depend uptex
 depend latex
@@ -179,7 +174,7 @@ runfiles size=3
 
 name ptex-ng.i386-linux
 category Package
-revision 1
+revision 64
 shortdesc i386-linux files of ptex-ng
 binfiles arch=i386-linux size=331
  bin/i386-linux/platex-ng
@@ -187,7 +182,7 @@ binfiles arch=i386-linux size=331
 
 name ptex-ng.universal-darwin
 category Package
-revision 4
+revision 76
 shortdesc universal-darwin files of ptex-ng
 binfiles arch=universal-darwin size=929
  bin/universal-darwin/platex-ng
@@ -195,7 +190,7 @@ binfiles arch=universal-darwin size=929
 
 name ptex-ng.win32
 category Package
-revision 6
+revision 86
 shortdesc win32 files of ptex-ng
 binfiles arch=win32 size=588
  bin/win32/lsotfea.exe
@@ -204,7 +199,7 @@ binfiles arch=win32 size=588
 
 name ptex-ng.x86_64-darwin
 category Package
-revision 4
+revision 76
 shortdesc x86_64-darwin files of ptex-ng
 binfiles arch=x86_64-darwin size=481
  bin/x86_64-darwin/platex-ng
@@ -212,7 +207,7 @@ binfiles arch=x86_64-darwin size=481
 
 name ptex-ng.x86_64-linux
 category Package
-revision 6
+revision 87
 shortdesc x86_64-linux files of ptex-ng
 binfiles arch=x86_64-linux size=579
  bin/x86_64-linux/lsotfea
@@ -221,7 +216,7 @@ binfiles arch=x86_64-linux size=579
 
 name pxdvi
 category TLCore
-revision 6
+revision 25
 depend pxdvi.ARCH
 docfiles size=31
  texmf-dist/doc/man/man1/pxdvi.1
@@ -232,7 +227,7 @@ runfiles size=5
 
 name pxdvi.amd64-freebsd
 category TLCore
-revision 7
+revision 102
 shortdesc amd64-freebsd files of pxdvi
 binfiles arch=amd64-freebsd size=366
  bin/amd64-freebsd/pxdvi
@@ -240,7 +235,7 @@ binfiles arch=amd64-freebsd size=366
 
 name pxdvi.i386-cygwin
 category TLCore
-revision 10
+revision 102
 shortdesc i386-cygwin files of pxdvi
 binfiles arch=i386-cygwin size=332
  bin/i386-cygwin/pxdvi
@@ -248,7 +243,7 @@ binfiles arch=i386-cygwin size=332
 
 name pxdvi.i386-freebsd
 category TLCore
-revision 7
+revision 102
 shortdesc i386-freebsd files of pxdvi
 binfiles arch=i386-freebsd size=330
  bin/i386-freebsd/pxdvi
@@ -256,7 +251,7 @@ binfiles arch=i386-freebsd size=330
 
 name pxdvi.i386-linux
 category TLCore
-revision 9
+revision 10
 shortdesc i386-linux files of pxdvi
 binfiles arch=i386-linux size=326
  bin/i386-linux/pxdvi
@@ -264,7 +259,7 @@ binfiles arch=i386-linux size=326
 
 name pxdvi.i386-netbsd
 category TLCore
-revision 9
+revision 10
 shortdesc i386-netbsd files of pxdvi
 binfiles arch=i386-netbsd size=308
  bin/i386-netbsd/pxdvi
@@ -272,7 +267,7 @@ binfiles arch=i386-netbsd size=308
 
 name pxdvi.universal-darwin
 category TLCore
-revision 11
+revision 15
 shortdesc universal-darwin files of pxdvi
 binfiles arch=universal-darwin size=972
  bin/universal-darwin/pxdvi
@@ -280,7 +275,7 @@ binfiles arch=universal-darwin size=972
 
 name pxdvi.x86_64-darwin
 category TLCore
-revision 11
+revision 13
 shortdesc x86_64-darwin files of pxdvi
 binfiles arch=x86_64-darwin size=603
  bin/x86_64-darwin/pxdvi
@@ -288,7 +283,7 @@ binfiles arch=x86_64-darwin size=603
 
 name pxdvi.x86_64-linux
 category TLCore
-revision 9
+revision 52
 shortdesc x86_64-linux files of pxdvi
 binfiles arch=x86_64-linux size=375
  bin/x86_64-linux/pxdvi
