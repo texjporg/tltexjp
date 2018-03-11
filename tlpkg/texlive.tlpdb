@@ -1,13 +1,13 @@
 name 00texlive.config
 category TLCore
-revision 101
+revision 104
 depend container_format/xz
 depend container_split_doc_files/1
 depend container_split_src_files/1
 depend frozen/0
 depend minrelease/2016
 depend release/2018-tltexjp
-depend revision/102
+depend revision/106
 
 name 00texlive.installation
 category TLCore
@@ -207,9 +207,9 @@ binfiles arch=x86_64-darwin size=481
 
 name ptex-ng.x86_64-linux
 category Package
-revision 87
+revision 106
 shortdesc x86_64-linux files of ptex-ng
-binfiles arch=x86_64-linux size=579
+binfiles arch=x86_64-linux size=1153
  bin/x86_64-linux/lsotfea
  bin/x86_64-linux/platex-ng
  bin/x86_64-linux/ptex-ng
