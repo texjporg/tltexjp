@@ -7,7 +7,7 @@ depend container_split_src_files/1
 depend frozen/0
 depend minrelease/2016
 depend release/2018-tltexjp
-depend revision/106
+depend revision/107
 
 name 00texlive.installation
 category TLCore

@@ -16,7 +16,7 @@ TLNETDEST=${TLNETDEST:-/home/norbert/public_html/tltexjp}
 TLCATALOGUE=${TLCATALOGUE:-/home/norbert/Development/TeX/texcatalogue-svn}
 
 # how to sign
-export TL_GNUPGOPTS="--local-user 0xEC00B8DAD32266AA"
+export TL_GNUPGOPTS="--local-user 0x624DEA9EA5CA2843"
 
 # we don't do TeX Catalogue updates
 #unset TEX_CATALOGUE
