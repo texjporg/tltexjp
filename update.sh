@@ -41,7 +41,7 @@ fi
 if $do_tlpdb ; then
   # update tlpdb
   $TLCHECKOUT/Master/tlpkg/bin/tl-update-tlpdb \
-	-with-w32-pattern-warning -from-git \
+	--w32-pattern-warning -from-git \
 	--catalogue=$TLCATALOGUE	\
 	--master=`pwd`
 fi
