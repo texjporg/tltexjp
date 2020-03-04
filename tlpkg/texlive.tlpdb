@@ -1,13 +1,13 @@
 name 00texlive.config
 category TLCore
-revision 111
+revision 113
 depend container_format/xz
 depend container_split_doc_files/1
 depend container_split_src_files/1
 depend frozen/0
 depend minrelease/2016
-depend release/2020-tltexjp
-depend revision/111
+depend release/2100-tltexjp
+depend revision/113
 
 name 00texlive.installation
 category TLCore
